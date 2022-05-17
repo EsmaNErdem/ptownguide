@@ -1,5 +1,5 @@
 # ptownguide
 
 Hi,
-I live in Ptown and here is my amateur Ptown guide Website. Stay tuned for updates and more! 
+I live in Ptown and want to share my experience with you. Here is my amateur Ptown Guide. Stay tuned for updates and more! 
 Adiós por ahora!
