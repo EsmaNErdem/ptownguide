@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Anton&family=Bebas+Neue&family=Londrina+Solid:wght@900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilitites.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Ptown Guide</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <section class="openning"> 
+        <div class="navbar">
+            <div class="container flex">
+                    <a href="index.html"><h1 class="logo">PT</h1></a>
+                    <nav>
+                        <ul>
+                            <li><a href="eat.html">Eat</a></li>
+                            <li><a href="drink.html">Drink</a></li>
+                            <li><a href="fun.html">Fun</a></li>
+                            <li><a href="culture.html">Culture</a></li>
+                        </ul>
+                    </nav>            
+            </div>
+        </div>
+        <!--Showcase-->
+        <div class="showcase">
+            <div class="container grid">
+                <div class="showcase-text">
+                    <h1>Eat... Drink... Have Fun... Learn...</h1>
+                     <p>Would you like to know about events for when you come to Ptown? Then sign up for the newsletter which will inform you what is open, what to do, where to eat, what to discover for the specific dates only. 
+                    <br><a href="https://ptown.org/" class="btn btn-outline">Explore More</a>
+                    </p>
+                </div>
+            
+                <div class="showcase-form card">
+                    <h2>Sign Up for Newsletter</h2>
+                    <form>
+                        <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="Arrival">Arrival date:
+                            <input type="date" id="start" name="trip-start"
+        min="2022-01-01" max="2022-12-31" required>
+                            </label>
+                        </div>
+                        <div class="form-control">
+                            <label for="Departure">Departure date:
+                            <input type="date" id="start" name="trip-start"
+        min="2022-01-01" max="2022-12-31" required>
+                            </label>
+                        </div>
+                        <div class="form-control">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <input type="submit" value="Send" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<!---->
+    <!--Stats-->
+    <section class="stats">
+        <div class="container">
+            <h1 class="stats-heading text-center my-1">
+                Guidance for Special Dates
+            </h1>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <span class="material-symbols-outlined">
+                        bookmark_added
+                    </span>
+                    <h2>Annual Theme Weeks</h2>
+                    <h3>Each year the streets and shores of Provincetown fill up with visitors from all around the world who gather there to bond with their community, soak up some rest & relaxation, and enjoy the town’s spectacular events and world-famous theme weeks. Get the details about 2022’s events and book your trip out to the world’s premier LGBTQ+ travel destination.</h3>
+                    <a href="https://ptown.org/calendars/annual-events-theme-weeks/?_ga=2.97817752.681766835.1651453899-1780182143.1650841133" class="btn btn-outline">Find Out</a>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        event
+                    </span>
+                    <h2>Events</h2>
+                    <h3>Almost every , there is a celebtration in PTown. </h3>  
+                    <a href="https://ptown.org/calendars/?_ga=2.136073270.681766835.1651453899-1780182143.1650841133" class="btn btn-outline">Discover More</a>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        newspaper
+                    </span>
+                    <h2>Happenings</h2>
+                    <h3>Follow what is going in P-town</h3>
+                    <a href="https://ptownie.com/" class="btn btn-outline">Take a Look</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
